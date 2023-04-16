@@ -7,7 +7,8 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint && prettier src",
-    "lint:fix": "next lint && prettier --write src"
+    "lint:fix": "next lint && prettier --write src",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "13.3.0",
@@ -24,6 +25,8 @@
     "eslint-config-next": "13.3.0",
     "eslint-config-prettier": "^8.8.0",
     "eslint-plugin-react": "^7.32.2",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.1",
     "prettier": "^2.8.7",
     "typescript": "5.0.4"
   }
